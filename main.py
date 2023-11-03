@@ -5,7 +5,7 @@ app = Dash(__name__)
 app.layout = html.Div(
   [
     html.H4('Interavtive color selection with simple Dash example'), 
-    html.P("Select color: ") 
+    html.P("Select color: "),
     dcc.Dropdown(
       id = "dropdown", 
       options = ['Gold', 'MediumTurquoise', 'LightGreen'], 
